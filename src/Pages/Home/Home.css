@@ -1,0 +1,50 @@
+.headingproduct{
+  color: rgb(131,109,220);
+}
+
+.hero-section {
+  position: relative;
+  height: 86vh;
+  overflow: hidden;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1; /* Ensures text appears above the video */
+}
+
+.hero-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Places video behind text */
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.text_heading{
+  font-family: sans-serif;
+}
+
+.wholesale{
+  color:rgb(85, 117, 85);
+}
+.shop_button button{
+  background-color:rgb(131,109,220);
+  color: white;
+}
+.shop_button button:hover{
+  background: rgb(249,97,56);
+  color: white;
+}
+.p_tag_contant{
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+
+

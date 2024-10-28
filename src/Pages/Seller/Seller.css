@@ -1,0 +1,137 @@
+/* SellPage.css */
+.sell-page {
+    font-family: Arial, sans-serif;
+    color: #181717;
+  }
+  .bg_info {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255 255 255) !important;
+}
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2e2929;
+  }
+  
+  .header-left .seller-image {
+    width: 300px;
+    border-radius: 0%;
+  }
+  
+  .header-right {
+    text-align: center;
+  }
+  
+  .header-right h2 {
+    font-size: 24px;
+  margin: 0 0 20px 0;
+  }
+  
+  .stats {
+    display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+   
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+  }
+  
+  .stat span {
+    font-size: 14px;
+    color: #c48080;
+  }
+  
+  .registration {
+    text-align: center;
+    margin: 20px 0;
+    background: #f7f6f6;
+  }
+  
+  .registration h3 {
+    margin-bottom: 10px;
+  }
+  
+  
+  .registration button {
+    padding: 8px 20px;
+    color: white;
+    background-color: #1077ec;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  /* .content{
+height: 100vh; 
+background-image: url("./Assets//background.webp");
+  } */
+  
+  .info {
+    width: 40%;
+  }
+  
+  .info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info li {
+    margin-bottom: 10px;
+  }
+  
+  .steps {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .steps h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .step {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .step i {
+    font-size: 2rem;
+    color:#007bff;
+  }
+  
+  .step h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .step p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  .header-left1{
+    background-image: url("./Assets/background.jpg");
+    height: 300px;
+  }
+ 
